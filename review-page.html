@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>QA Park</h1>
+    </header>
+    <h2>Reviews</h2>
+    <form>
+    <fieldset>
+        <legend><b>Submit a review</b></legend>
+        <ul>
+            <li>
+                <label for="carpark">Select Carpark</label>
+                <select name="carpark" id="carpark">
+                    <option value="carpark1">Carpark 1</option>
+                    <option value="carpark2">Carpark 2</option>
+                </select>
+            </li>
+            <li>
+                <label for="date-from">Date From</label>
+                <input type="date" name="date" id="date-from">
+                <label for="date-to">Date To</label>
+                <input type="date" name="date" id="date-to">
+            </li>
+            <li>
+                <label for="rating">Star Rating</label>
+                <input type="range" name="rating" id="rating" min="1" max="5">
+            </li>
+            <li>
+                <textarea name="customer-review" id="customer-review" placeholder="Enter your review here"></textarea>
+            </li>
+        </ul>
+    </fieldset>
+    <br>
+    <fieldset>
+        <input type="submit" value="Submit Review">
+    </fieldset>
+    </form>
+    <br>
+    <fieldset>
+        <legend><b>Customer Reviews</b></legend>
+        <img src="./images/Adrian.png" alt="Carpark Image" style="float: left">
+        <h3>Carpark 1</h3>
+        <p>Adrian has worked in the IT and education industries for the past 25 years and joined QA in 2006 with a focus on
+        the development and delivery of training around Visual Studio, Team Foundation Server and the software
+        development lifecycle. Still to be found in the classroom delivering training around Application Lifecycle
+        Management, he is also responsible for the day-to-day management of QA’s IT curriculum. He has particular focus
+        on the quality, breadth, depth and relevance of both vendor-produced courses and the extensive QA-authored
+        portfolio. Areas of expertise: Teaching and learning effectiveness, Application Lifecycle Management, Cloud
+        computing, Team Foundation Server.</p>
+        <hr style="clear:both">
+        <img src="./images/Dave.png" alt="Carpark Image" style="float: left">
+        <h3>Carpark 2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias veritatis maiores illo inventore non id, illum fuga dolorem iusto veniam sunt obcaecati. Perferendis porro officia reprehenderit aliquam, at numquam corporis..</p>
+        <hr style="clear:both">
+    </fieldset>
+</body>
+</html>
