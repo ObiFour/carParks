@@ -11,3 +11,20 @@ Disabled bays: 35
 3 to 4 hours	£17.80
 4 to 24 hours	£29.95
 
+--------------------------------------------------------
+
+Manchester Spinningfields
+Spinningfields, New Quay Street, Manchester, M3 3BE
+24Hr
+Total spaces: 680
+Max Height: 2.15m
+Disabled bays: 35
+
+1 hour	£4.95
+1 to 2 hours	£9.90
+2 to 3 hours	£14.85
+3 to 4 hours	£19.80
+4 to 5 hours	£24.75
+5 to 6 hours	£29.70
+6 to 24 hours	£34.95
+Evening rate 1700-2359	£11.95
